@@ -6,8 +6,8 @@ import { HeroesModule } from './heroes/heroes.module';
 import { AppComponent } from './app.component';
 import { HeroComponent } from './heroes/hero/hero.component';
 import { ListComponent } from './heroes/list/list.component';
-
-
+import { DbzModule } from './dbz/dbz.module';
+import { EsdlaModule } from './esdla/esdla.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,9 @@ import { ListComponent } from './heroes/list/list.component';
     BrowserModule,
     AppRoutingModule,
     CounterModule,
-    HeroesModule
+    HeroesModule,
+    DbzModule,
+    EsdlaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
