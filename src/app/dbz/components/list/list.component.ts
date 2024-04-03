@@ -22,7 +22,7 @@ export class ListComponent {
   @Output()
   public onDelete: EventEmitter<string> = new EventEmitter();
 
-  onDeleteCharacter( id?:string ):void{
+  onDeleteCharacter( id?: string ):void{
     //TODO: emitir el id del personaje
     if(!id) return;
     this.onDelete.emit( id );

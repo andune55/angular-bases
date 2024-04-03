@@ -16,15 +16,15 @@
     >
     <div>
       <span class="text-primary">{{i}}. </span>
-      <span>{{character.name}} - </span>
+      <span>{{ character.name }} - </span>
       <strong>Power: </strong>
-      <span>{{character.power}}</span>
+      <span>{{ character.power }}</span>
       <!--<span> - Es el primero {{ isFirst }}</span>
       <span> - Es el último {{ isLast }}</span>
       <span> - Es par {{ isEven }}</span>
       <span> - Es impar {{ isOdd }}</span>-->
     </div>
-    <button class="btn btn-danger" (click)="onDeleteCharacter(character.id)">X</button>
+    <button class="btn btn-danger" (click)="onDeleteCharacter( character.id )">X</button>
   </div>
 
   <!--<li class="list-group-item">Krillin - 500</li>
